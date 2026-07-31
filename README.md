@@ -16,7 +16,7 @@ curl -sLOJR --out /usr/share/keyrings https://donmor-repos.github.io/pub/donmor-
 #### Add `<repo>`:
 ``` bash
 tee /etc/apt/sources.list.d/<repo>.sources <<EOF
-Types: deb-src
+Types: deb deb-src
 URIs: https://github.com/donmor-repos/<repo>/releases/latest/download
 Suites: /
 Signed-By: /usr/share/keyrings/donmor-repos-keyring.gpg
