@@ -9,11 +9,11 @@ Install [`donmor-repos-keyring`](pub/donmor-repos-keyring_0.0.1_all.deb), and ch
   - `node-tiddlywiki`
  
 ## Manual configuration
-#### Install keyring:
+#### Add keyring:
 ``` bash
 curl -sLOJR --out /usr/share/keyrings https://donmor-repos.github.io/pub/donmor-repos-keyring.gpg
 ```
-#### Install `<repo>`:
+#### Add `<repo>`:
 ``` bash
 tee /etc/apt/sources.list.d/<repo>.sources <<EOF
 Types: deb-src
