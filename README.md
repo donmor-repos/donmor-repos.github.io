@@ -8,7 +8,7 @@ Install [`donmor-repos-keyring`](pub/donmor-repos-keyring_0.0.1_all.deb), and ch
 - TiddlyWiki ([`node-tiddlywiki-debian`](pub/node-tiddlywiki-debian-repo_0.0.1_all.deb))
   - `node-tiddlywiki`
  
-Be sure to run `apt update` before installing any package.
+Be sure to run `apt-get update` before installing any package.
  
 ## Manual configuration
 #### Add keyring:
@@ -23,6 +23,7 @@ URIs: https://github.com/donmor-repos/<repo>/releases/latest/download
 Suites: /
 Signed-By: /usr/share/keyrings/donmor-repos-keyring.gpg
 EOF
+apt-get update
 ```
 `<repo>`s:
 - `node-tiddlywiki-debian`
