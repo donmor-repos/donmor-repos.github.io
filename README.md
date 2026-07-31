@@ -11,7 +11,7 @@ Install [`donmor-repos-keyring`](pub/donmor-repos-keyring_0.0.1_all.deb), and ch
 ## Manual configuration
 #### Add keyring:
 ``` bash
-curl -sLOJR --out /usr/share/keyrings https://donmor-repos.github.io/pub/donmor-repos-keyring.gpg
+curl -sLOJR --output-dir /usr/share/keyrings https://donmor-repos.github.io/pub/donmor-repos-keyring.gpg
 ```
 #### Add `<repo>`:
 ``` bash
