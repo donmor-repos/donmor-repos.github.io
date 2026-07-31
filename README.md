@@ -1,4 +1,4 @@
-# [![github](https://github.com/favicon.ico)](https://github.com/donmor) donmor-repos
+# [![github](favicon.ico)](https://github.com/donmor) donmor-repos
 
 This organization is for unofficial repositories set up by me.
 
