@@ -4,8 +4,8 @@ This organization is for unofficial repositories set up by me.
 
 
 ## Quick configuration
-Install [donmor-repos-keyring](pub/donmor-repos-keyring_0.0.1_all.deb), and choose one or more repo config packages:
-- TiddlyWiki ([node-tiddlywiki-debian](pub/node-tiddlywiki-debian-repo_0.0.1_all.deb))
+Install [`donmor-repos-keyring`](pub/donmor-repos-keyring_0.0.1_all.deb), and choose one or more repo config packages:
+- TiddlyWiki ([`node-tiddlywiki-debian`](pub/node-tiddlywiki-debian-repo_0.0.1_all.deb))
   - `node-tiddlywiki`
  
 ## Manual configuration
