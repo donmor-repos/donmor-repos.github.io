@@ -7,7 +7,10 @@ This organization is for unofficial repositories set up by me.
 Install [`donmor-repos-keyring`](pub/donmor-repos-keyring_0.0.1_all.deb), and choose one or more repo config packages:
 - TiddlyWiki ([`node-tiddlywiki-debian`](pub/node-tiddlywiki-debian-repo_0.0.1_all.deb))
   - `node-tiddlywiki`
- 
+- oCIS ([`ocis-debian`](pub/ocis-debian-repo_0.0.1_all.deb))
+  - `ocis` (+dbgsym)
+  - `ocis-common`
+
 Be sure to run `apt-get update` before installing any package.
  
 ## Manual configuration
@@ -27,3 +30,4 @@ apt-get update
 ```
 `<repo>`s:
 - `node-tiddlywiki-debian`
+- `ocis-debian`
